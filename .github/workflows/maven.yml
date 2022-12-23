@@ -31,4 +31,4 @@ jobs:
         maven-version: 3.8.5
         
     - name: Build with Maven
-      run: mvn -B package --file complete/pom.xml
+      run: mvn -B package --file pom.xml
